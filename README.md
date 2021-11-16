@@ -21,8 +21,11 @@ Or install it yourself as:
     $ gem install rick_and_morty
 
 ## Usage
+Just add the gem and call the histogram method:
 
-TODO: Write usage instructions here
+    require "rick_and_morty"
+    
+    RickAndMorty.characters.histogram
 
 ## Development
 
