@@ -23,9 +23,19 @@ Or install it yourself as:
 ## Usage
 Just add the gem and call the histogram method:
 
+```bash
+# lib/rick_and_morty.rb 
     require "rick_and_morty"
     
     RickAndMorty.characters.histogram
+```
+
+```bash
+# [rick_and_morty](lib/rick_and_morty.rb )
+    require "rick_and_morty"
+    
+    RickAndMorty.characters.histogram
+```
 
 ## Development
 
